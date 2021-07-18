@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Site Black Friday</title>
+</head>
+<body>
+
+<div class= "imgBlackFriday">
+    <img src="Imagens/black_friday.png" alt="imagem-Black-Friday-Descontos-Imperdiveis" width="500vh">
+</div>
+<ul class="countdown">
+    <li>
+      <span data-time></span>
+      <div>dia(s)</div>
+    </li>
+    <li>
+      <span data-time></span>
+      <div>hora(s)</div>
+    </li>
+    <li>
+      <span data-time></span>
+      <div>min.</div>
+    </li>
+    <li>
+      <span data-time></span>
+      <div>sec.</div>
+    </li>
+  </ul>
+
+<div class= 'caixaTexto'>
+    Cadastre seu e-mail e receba com exclusividade as promoções <br> e ainda ganhe cupons EXTRAS!!
+</div>
+
+<form action="cadastro">   
+    <input type="email" name="Email" id="email"> 
+    <input type="button" value="ENVIAR" id="button" onclick="validar()">
+</form>
+
+
+<div id= "res">
+  </div>
+
+<footer>Desenvolvido por Paulo Ricardo :)</footer>
+
+
+</body>
+<script src=""></script>
+
+<script type="module" src="site.js"></script>
+<script src="botao.js"></script>
+</html>

@@ -1,0 +1,117 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+body {
+    height: 100vh;
+    background: #121212;
+ /*   display: grid;   */
+    align-items: center;
+  }
+
+.imgBlackFriday{ 
+    margin-top: 2%;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.caixaTexto{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 2%;
+    margin-top: 2%;
+    font-size: 2rem;
+    color: aliceblue;
+}
+
+li {
+    list-style: none;
+  }
+  
+    .countdown {
+    margin-top:  2%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(14vh, 20vw));
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .countdown li {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    padding: 1rem;
+    color: rgb(250, 6, 6);
+    background: #1e1e1e;
+    border-radius: 5px;
+    box-shadow: 10px 10px 2px rgba(0, 0, 0, 0.4);
+    text-align: center;
+  }
+  
+  .countdown li span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 10vh;
+  }
+
+  form{ 
+      display: flex;
+      justify-content: center;
+      align-items: center;     
+  }
+  #email{
+      height: 2.5vh;
+      min-width: 25vw;
+      border-radius: 5px;
+  }
+  #button{    
+      margin-left: 15px;
+      height: 2.8vh;
+      min-width: 7vw;
+      border-radius: 5px;
+      color:#fff;
+      background-color: red;
+  }
+
+  footer{
+      margin-top: 4%;
+      display: flex;
+      justify-content: center;
+      color: #fff;
+  }
+
+  #res{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  @media screen and (max-width: 600px) {
+    img  {       
+      width: 80%;            
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .email {
+      width: 80%;
+      height: 25px;     
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .button {      
+      width: 80%;
+      height: 25px;     
+    }
+  }
+
+  #res{
+      margin-top: 1%;
+      font-size: 2rem;
+      display: flex;
+      justify-content: center;
+      color: red;           
+  }
