@@ -1,117 +1,138 @@
 * {
-    margin: 0px;
-    padding: 0px;
-  }
-  
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
-    height: 100vh;
-    background: #121212;
- /*   display: grid;   */
+  height: 100vh;
+  background: #121212;
+/*   display: grid;   */
+  align-items: center;
+}
+
+header{
+    display: flex;
     align-items: center;
-  }
+}
 
 .imgBlackFriday{ 
-    margin-top: 2%;   
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+  margin-left: 8%;    
 }
 
-.caixaTexto{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding: 2%;
-    margin-top: 2%;
-    font-size: 2rem;
-    color: aliceblue;
+h4{
+  font-size: 2.5rem;
+  display: flex;
+  text-align: center;
+  color: #fff;
 }
+
+form{ 
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;     
+}
+#email{
+  margin-top: 2%;
+  min-height: 3.5vh;
+  min-width: 30vw;
+  border-radius: 5px;
+}
+#button{  
+  margin-top: 2%;  
+  height: 3.5vh;
+  min-width: 7vw;
+  border-radius: 5px;
+  color:#fff;
+  background-color: red;
+}
+
+#res{
+  margin-top: 1%;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  color: red;           
+}
+
 
 li {
-    list-style: none;
-  }
-  
-    .countdown {
-    margin-top:  2%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(14vh, 20vw));
-    justify-content: center;
-    gap: 10px;
-    padding: 10px;
-  }
-  
-  .countdown li {
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-style: italic;
-    padding: 1rem;
-    color: rgb(250, 6, 6);
-    background: #1e1e1e;
-    border-radius: 5px;
-    box-shadow: 10px 10px 2px rgba(0, 0, 0, 0.4);
-    text-align: center;
-  }
-  
-  .countdown li span {
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-size: 10vh;
-  }
+  list-style: none;
+}
 
-  form{ 
-      display: flex;
-      justify-content: center;
-      align-items: center;     
-  }
-  #email{
-      height: 2.5vh;
-      min-width: 25vw;
-      border-radius: 5px;
-  }
-  #button{    
-      margin-left: 15px;
-      height: 2.8vh;
-      min-width: 7vw;
-      border-radius: 5px;
-      color:#fff;
-      background-color: red;
-  }
+  .countdown {
+  margin-top:  2%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14vh, 20vw));
+  justify-content: center;
+  gap: 10px;
+  padding: 5px;
+}
 
-  footer{
-      margin-top: 4%;
-      display: flex;
-      justify-content: center;
-      color: #fff;
-  }
+.countdown li {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  padding: 0.5rem;
+  color: rgb(250, 6, 6);
+  background: #1e1e1e;
+  border-radius: 5px;
+  box-shadow: 10px 10px 2px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
 
-  #res{
+.countdown li span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 7vh;
+} 
+
+#res{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.container{
+    width: 100vw;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#imagem{        
+  width: 15%;	
+}
+  
+.container :hover{        
+   -webkit-transform: scale(1.2);
+      transform: scale(1.2)	
+}
+  
+footer{
+   font-size: 1.5rem;
+    margin-top: 4%;
     display: flex;
     justify-content: center;
-    text-align: center;
-  }
-  @media screen and (max-width: 600px) {
-    img  {       
-      width: 80%;            
-    }
-  }
+    color: #fff;
+}
 
-  @media screen and (max-width: 600px) {
-    .email {
-      width: 80%;
-      height: 25px;     
-    }
-  }
-  @media screen and (max-width: 600px) {
-    .button {      
-      width: 80%;
-      height: 25px;     
-    }
-  }
 
-  #res{
-      margin-top: 1%;
-      font-size: 2rem;
-      display: flex;
-      justify-content: center;
-      color: red;           
+@media screen and (max-width: 800px) {    
+header{
+  display: flex;
+  flex-direction: column;
+}
+}
+
+@media screen and (max-width: 800px) {
+  #email {
+    width: 70%;
   }
+}
+@media screen and (max-width: 800px) {
+  #button {      
+    width: 30%;
+    height: 40px;     
+  }
+}

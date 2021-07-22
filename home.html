@@ -1,18 +1,50 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Site Black Friday</title>
-</head>
-<body>
+<html lang="en">
 
-<div class= "imgBlackFriday">
-    <img src="Imagens/black_friday.png" alt="imagem-Black-Friday-Descontos-Imperdiveis" width="500vh">
-</div>
-<ul class="countdown">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">WebSiteName</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="https://github.com/Rodrigues-PauloRicardo">Meu GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/paulo-ricardo-rodrigues-a6ab8852/">Meu Linkedin</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <header>
+    <div class="imgBlackFriday">
+      <img src="Imagens/black_friday.png" alt="imagem-Black-Friday-Descontos-Imperdiveis" width="400vh">
+    </div>
+
+    <form action="cadastro">
+      <h4>Cadastre seu e-mail e receba com exclusividade as promoções <br> e ainda ganhe cupons EXTRAS!!</h4>
+
+      <input type="email" name="Email" id="email">
+      <input type="button" value="ENVIAR" id="button" onclick="validar()">
+
+      <div id="res">
+      </div>
+    </form>
+  </header>
+
+
+  <ul class="countdown">
     <li>
       <span data-time></span>
       <div>dia(s)</div>
@@ -31,24 +63,19 @@
     </li>
   </ul>
 
-<div class= 'caixaTexto'>
-    Cadastre seu e-mail e receba com exclusividade as promoções <br> e ainda ganhe cupons EXTRAS!!
-</div>
+  <div class="container">
+    <img id="imagem" src="imagens/a10s.png" alt="">
+    <img id="imagem" src="imagens/notebook.png" alt="">
+    <img id="imagem" src="imagens/Smartwatch.png" alt="">
+    <img id="imagem" src="imagens/cadeira-gamer.png" alt="">
 
-<form action="cadastro">   
-    <input type="email" name="Email" id="email"> 
-    <input type="button" value="ENVIAR" id="button" onclick="validar()">
-</form>
-
-
-<div id= "res">
   </div>
 
-<footer>Desenvolvido por Paulo Ricardo :)</footer>
+  <footer>Desenvolvido por Paulo Ricardo :)</footer>
+  <script src="site.js"></script>
 
-
+  <script type="module" src="site.js"></script>
+  <script src="botao.js"></script>
 </body>
 
-<script type="module" src="site.js"></script>
-<script src="botao.js"></script>
 </html>
