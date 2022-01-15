@@ -2,34 +2,22 @@
 
 <h2>Tela inicial de estudo para e-commerce - black friday</h2>
 
-Incluido countdown  
-Cadastro para recebimento de promoções
-Bootstrap
-
-Exemplo de tela inicial para e-commerce
-100% Responsivo
-
-Função de cadastro de e-mail em javascrit
-
-![Screenshot](Imagens/captura.png)
-
 <h2>🚧 Status:  🚀 em construção...  🚧.</h2>
  
 Tabela de conteúdos
 =================
 <!--ts-->
-   * [Sobre](#Sobre)
-   * [Minhas Redes](#redes)
-   * [Meus Projetos](#project)
-   * [Minhas Skills](#title-skills) CADASTRO DE E-MAIL
-   * [Estudando...](#title-learning) COUNTDOWN CONTAGEM REGRESSIVA
-   * [Apresentação](#apresent) FUNÇÃO hOVER
-<!--te-->
+   * Minhas Redes
+   * Cadastro de e-mail
+   * Countdown - Contagem regressiva
+   * Imagens com função hover
+  <!--te-->
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/0a8ce824-9217-47e1-8b45-14d7e612ca32/deploy-status)](https://portifolio-pauloricardo.netlify.app/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d18be24e-96e3-4265-afd6-d92e631d032d/deploy-status)](https://app.netlify.com/sites/black-friday-gama-academy/deploys)
 
 ### 🛠 Tecnologias
 HTML, CSS, JS, BOOTSTRAP
+![Screenshot ](Imagens/captura.png)
 
 
 <h2>MIT License</h2>
