@@ -1,3 +1,7 @@
 # Landing-Page-BlackFriday
-Exemplo de tela inicial para e-commerce para black friday
+Tela inicial para e-commerce para black friday
 ![Screenshot](img001.png)
+
+Incluido countdown
+Cadastro para recebimento de promoções
+Bootstrap
