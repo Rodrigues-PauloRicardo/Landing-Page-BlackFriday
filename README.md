@@ -13,7 +13,7 @@ Tabela de conteúdos
    * Imagens com função hover
   <!--te-->
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/d18be24e-96e3-4265-afd6-d92e631d032d/deploy-status)](https://app.netlify.com/sites/black-friday-gama-academy/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5869401f-11ef-4036-84da-948fc2b41066/deploy-status)](https://app.netlify.com/sites/black-friday-estudo/deploys)
 
 ### 🛠 Tecnologias
 HTML, CSS, JS, BOOTSTRAP
